@@ -6,6 +6,13 @@ Repackage the golang elliptic library enhancements by Vlad Krasnov and Shay Guer
 
 This code offers substantial performance improvements for elliptic curve crypto.
 
+Installation:
+
+~~~
+$ go get github.com/glycerine/fast-elliptic-curve-p256/ecdsa
+$ go get github.com/glycerine/fast-elliptic-curve-p256/elliptic
+~~~
+
 
 References:
 
