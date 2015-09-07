@@ -1,0 +1,2 @@
+# fast-elliptic-curve-p256
+repackage the golang elliptic library enhancements by Vlad Krasnov and Shay Gueron.  This code offers substantial performance improvements for elliptic curve crypto. Available under BSD and Apache 2 licenses. References: https://go-review.googlesource.com/#/c/8968/  ; https://groups.google.com/forum/#!msg/golang-codereviews/m5QTnSUZU6c/Q5RUAdefWUwJ   ;  https://blog.cloudflare.com/go-crypto-bridging-the-performance-gap/
