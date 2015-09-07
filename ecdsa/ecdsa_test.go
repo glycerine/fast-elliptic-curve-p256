@@ -7,7 +7,6 @@ package ecdsa
 import (
 	"bufio"
 	"compress/bzip2"
-	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/sha1"
 	"crypto/sha256"
@@ -19,6 +18,8 @@ import (
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/glycerine/fast-elliptic-curve-p256/elliptic"
 )
 
 func testKeyGeneration(t *testing.T, c elliptic.Curve, tag string) {

@@ -20,11 +20,12 @@ import (
 	"crypto"
 	"crypto/aes"
 	"crypto/cipher"
-	"crypto/elliptic"
 	"crypto/sha512"
 	"encoding/asn1"
 	"io"
 	"math/big"
+
+	"github.com/glycerine/fast-elliptic-curve-p256/elliptic"
 )
 
 // A invertible implements fast inverse mod Curve.Params().N
